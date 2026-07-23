@@ -1,0 +1,75 @@
+{
+    "format_version": 2,
+    "metadata": {
+        "authors": [
+            "Draco12191712 (Vivaan Bobade)"
+        ],
+        "generated_with": {
+            "bridge": [
+                "2.7.54"
+            ],
+            "dash": [
+                "0.11.7"
+            ]
+        }
+    },
+    "header": {
+        "name": "Immersive Machinery Bedrock Port",
+        "description": "Immersive Machinery brings a collection of rustic machines to Minecraft: Bedrock Edition, allowing you to transport, mine, and automate with a design that blends seamlessly into the vanilla game. Original by Conczin. Bedrock port by Draco12191712 (Vivaan Bobade) V0.0.1",
+        "min_engine_version": [
+            1,
+            21,
+            120
+        ],
+        "uuid": "a2c602a6-8d0a-4933-8d82-7a2aa49dd57d",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "2ca95b3d-96b9-4371-9282-ce9309ca9710",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "f71ecaf8-ff7e-4a11-8400-f27ba33a4020",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "b138f830-a39a-41b4-b555-3ee98e53198d",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-gametest",
+            "version": "1.0.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
