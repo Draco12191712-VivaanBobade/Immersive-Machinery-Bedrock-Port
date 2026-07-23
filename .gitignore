@@ -1,0 +1,85 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains
+.idea/
+*.iml
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Bridge
+.bridge/
+.bridge-cache/
+deno.json
+config.json
+
+# Blockbench
+*.bbbackup
+*.bbmodel
+
+# Minecraft Preview generated files
+worlds/
+backups/
+
+# Build output
+build/
+dist/
+out/
+release/
+
+# Generated packs
+*.mcpack
+*.mcaddon
+*.zip
+
+# Coverage
+coverage/
+
+# Environment files
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Misc
+*.bak
+*.swp
+*.swo
