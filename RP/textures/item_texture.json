@@ -1,5 +1,9 @@
 {
-    "resource_pack_name": "Immersive Machinery Bedrock Port",
-    "texture_name": "atlas.items",
-    "texture_data": {}
+	"resource_pack_name": "Immersive Machinery Bedrock Port",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"dnd_bamboo_bee_egg": {
+			"textures": "textures/items/bamboo_bee"
+		}
+	}
 }

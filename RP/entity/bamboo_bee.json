@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dnd:bamboo_bee",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/bamboo_bee"
+			},
+			"geometry": {
+				"default": "geometry.bamboo_bee"
+			},
+			"render_controllers": [
+				"controller.render.bamboo_bee"
+			],
+			"spawn_egg": {
+				"texture": "dnd_bamboo_bee_egg",
+				"texture_index": 0
+			}
+		}
+	}
+}

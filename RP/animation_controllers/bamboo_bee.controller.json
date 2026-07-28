@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.130",
+	"animation_controllers": {
+		"controller.animation.bamboo_bee": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"variables": {
+						"engine_rotation": 0.0,
+						"grabber": -45.0
+					},
+					"animations": [
+						"animation.bamboo_bee.main"
+					]
+				}
+			}
+		}
+	}
+}

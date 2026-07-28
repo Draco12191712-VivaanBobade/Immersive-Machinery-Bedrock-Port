@@ -1,0 +1,45 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bamboo_bee.main": {
+			"loop": true,
+			"bones": {
+				"propellor0": {
+					"rotation": [
+						0,
+						"variable.engine_rotation * 150",
+						0
+					]
+				},
+				"propellor3": {
+					"rotation": [
+						0,
+						"variable.engine_rotation * 150",
+						0
+					]
+				},
+				"propellor2": {
+					"rotation": [
+						0,
+						"-variable.engine_rotation * 150",
+						0
+					]
+				},
+				"propellor1": {
+					"rotation": [
+						0,
+						"-variable.engine_rotation * 150",
+						0
+					]
+				},
+				"grabber": {
+					"rotation": [
+						"variable.grabber",
+						0,
+						0
+					]
+				}
+			}
+		}
+	}
+}
