@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "immersive:iron_drill"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " I ",
+      "IBI",
+      "III"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:iron_block"
+      }
+    ],
+    "result": {
+      "item": "immersive:iron_drill",
+      "count": 1
+    }
+  }
+}

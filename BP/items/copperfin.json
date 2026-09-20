@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "immersive:copperfin",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.immersive_machinery"
+      }
+    },
+    "components": {
+      "minecraft:icon": "immersive_copperfin",
+      "minecraft:display_name": {
+        "value": "item.immersive:copperfin"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hover_text_color": "gold",
+      "minecraft:glint": false,
+      "minecraft:use_modifiers": {
+        "use_duration": 0.0,
+        "movement_modifier": 1.0
+      },
+      "minecraft:custom_components": [
+        "immersive:place_machine"
+      ]
+    }
+  }
+}

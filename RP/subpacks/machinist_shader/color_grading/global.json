@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:color_grading_settings": {
+    "description": { "identifier": "immersive:machinist_grade" },
+    "color_grading": {
+      "shadows": {
+        "lift": [ 0.012, 0.008, 0.024 ],
+        "gamma": [ 1.02, 1.0, 0.98 ],
+        "gain": [ 0.97, 0.98, 1.05 ],
+        "offset": [ 0.0, 0.0, 0.004 ]
+      },
+      "midtones": {
+        "contrast": [ 1.055, 1.05, 1.04 ],
+        "gamma": [ 0.985, 0.99, 1.0 ],
+        "gain": [ 1.03, 1.005, 0.965 ],
+        "offset": [ 0.002, 0.0, -0.002 ]
+      },
+      "highlights": {
+        "gamma": [ 0.98, 0.99, 1.01 ],
+        "gain": [ 1.04, 1.01, 0.96 ],
+        "offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "temperature": { "temperature": 6250, "tint": 3 },
+      "tone_mapping": { "operator": "ACES" }
+    }
+  }
+}

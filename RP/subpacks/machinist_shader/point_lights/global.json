@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:point_light_settings": {
+    "description": { "identifier": "immersive:machinist_point_lights" },
+    "colors": {
+      "redstone_torch": "#ff3a1c",
+      "redstone_wall_torch": "#ff3a1c",
+      "redstone_block": "#c8281c",
+      "torch": "#ffd08a",
+      "lantern": "#ffd8a0",
+      "soul_lantern": "#78d8ff",
+      "lava": "#ff8a2a",
+      "magma": "#ff7a20",
+      "conduit": "#8ff0e4",
+      "sea_lantern": "#b4f0e6",
+      "glowstone": "#ffe0a0",
+      "copper_bulb": "#ffca7a",
+      "lit_copper_bulb": "#ffca7a",
+      "amethyst_cluster": "#c89cff",
+      "furnace": "#ff9a3a",
+      "lit_furnace": "#ff9a3a",
+      "blast_furnace": "#ff8a2a",
+      "lit_blast_furnace": "#ff8a2a",
+      "campfire": "#ffa040",
+      "fire": "#ff9030"
+    }
+  }
+}

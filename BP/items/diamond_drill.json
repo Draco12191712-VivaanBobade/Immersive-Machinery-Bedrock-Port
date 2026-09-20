@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "immersive:diamond_drill",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.immersive_machinery"
+      }
+    },
+    "components": {
+      "minecraft:icon": "immersive_diamond_drill",
+      "minecraft:display_name": {
+        "value": "item.immersive:diamond_drill"
+      },
+      "minecraft:max_stack_size": 8,
+      "minecraft:hover_text_color": "aqua"
+    }
+  }
+}

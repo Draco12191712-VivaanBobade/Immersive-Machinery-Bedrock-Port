@@ -1,0 +1,41 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "immersive:tunnel_digger",
+              "name": "itemGroup.name.immersive_machinery"
+            },
+            "items": [
+              "immersive:tunnel_digger",
+              "immersive:bamboo_bee",
+              "immersive:redstone_sheep",
+              "immersive:copperfin"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "immersive:redstone_mechanism",
+              "name": "itemGroup.name.immersive_machinery"
+            },
+            "items": [
+              "immersive:redstone_mechanism",
+              "immersive:iron_drill",
+              "immersive:diamond_drill",
+              "immersive:netherite_drill"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

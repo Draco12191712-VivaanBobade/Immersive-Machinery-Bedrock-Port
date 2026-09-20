@@ -1,0 +1,60 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "immersive:tunnel_digger"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "CGC",
+      "IED",
+      "RRR"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "D": {
+        "item": "immersive:iron_drill"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "E": {
+        "item": "minecraft:piston"
+      },
+      "G": {
+        "item": "minecraft:hopper"
+      },
+      "R": {
+        "item": "minecraft:rail"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_block"
+      },
+      {
+        "item": "immersive:iron_drill"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:piston"
+      },
+      {
+        "item": "minecraft:hopper"
+      },
+      {
+        "item": "minecraft:rail"
+      }
+    ],
+    "result": {
+      "item": "immersive:tunnel_digger",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "immersive:redstone_sheep",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "immersive:engine_power": {
+          "type": "float",
+          "range": [
+            0.0,
+            1.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "immersive:input_x": {
+          "type": "float",
+          "range": [
+            -1.0,
+            1.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "immersive:input_y": {
+          "type": "float",
+          "range": [
+            -1.0,
+            1.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "immersive:input_z": {
+          "type": "float",
+          "range": [
+            -1.0,
+            1.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "immersive:condition": {
+          "type": "float",
+          "range": [
+            0.0,
+            1.0
+          ],
+          "default": 1.0,
+          "client_sync": true
+        }
+      }
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "immersive_machine",
+          "redstone_sheep",
+          "inanimate"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.8,
+        "height": 0.8
+      },
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "monster"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "drowning"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "fire"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "fire_tick"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "lava"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "magma"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "suffocation"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "wither"
+                  }
+                ]
+              }
+            },
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:persistent": {},
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "width": 0.8,
+            "height": 0.8,
+            "pivot": [
+              0,
+              0.4,
+              0
+            ]
+          }
+        ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:inventory": {
+        "container_type": "container",
+        "inventory_size": 16,
+        "can_be_siphoned_from": false,
+        "private": true
+      },
+      "minecraft:nameable": {},
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "on_interact": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "is_sneaking",
+                    "subject": "other",
+                    "value": true
+                  }
+                ]
+              },
+              "event": "immersive:open_panel",
+              "target": "self"
+            },
+            "interact_text": "action.interact.redstone_sheep.panel",
+            "use_item": false,
+            "swing": false,
+            "play_sounds": ""
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.6000000000000001
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true,
+        "can_pass_doors": false,
+        "can_open_doors": false,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:behavior.random_stroll": {
+        "priority": 10,
+        "speed_multiplier": 0.4
+      }
+    },
+    "events": {
+      "immersive:open_panel": {
+        "run_command": {
+          "command": []
+        }
+      }
+    }
+  }
+}

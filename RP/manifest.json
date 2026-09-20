@@ -1,33 +1,65 @@
 {
   "format_version": 2,
   "metadata": {
-    "authors": ["Draco12191712 (Vivaan Bobade)"],
+    "authors": [
+      "Draco12191712 (Vivaan Bobade)"
+    ],
     "generated_with": {
-      "bridge": ["2.7.54"],
-      "dash": ["0.11.7"]
+      "bridge": [
+        "2.7.54"
+      ],
+      "dash": [
+        "0.11.7"
+      ]
     },
     "product_type": "addon",
     "license": "GPL v3 (GNU General Public License v3)"
   },
   "header": {
-    "name": "§6§lImmersive Machinery§r §9[RP]§r",
-    "description": "§eAutomate, mine, and transport with rustic vanilla-friendly machines!§r\n\n§7Original by: §fConczin\n§7Bedrock port: §bDraco12191712\n§8v0.0.1",
-    "min_engine_version": [1, 26, 0],
+    "name": "\u00a76\u00a7lImmersive Machinery\u00a7r \u00a79[RP]\u00a7r",
+    "description": "\u00a7eAutomate, mine, and transport with rustic vanilla-friendly machines!\u00a7r\n\n\u00a77Original by: \u00a7fConczin\n\u00a77Bedrock port: \u00a7bDraco12191712\n\u00a78v0.0.1",
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ],
     "uuid": "b138f830-a39a-41b4-b555-3ee98e53198d",
-    "version": [1, 0, 0],
+    "version": [
+      1,
+      0,
+      0
+    ],
     "pack_scope": "any"
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "265e68d2-66e6-438b-a24e-68b15c2711ad",
-      "version": [1, 0, 0]
+      "version": [
+        1,
+        0,
+        0
+      ]
     }
   ],
   "dependencies": [
     {
       "uuid": "a2c602a6-8d0a-4933-8d82-7a2aa49dd57d",
-      "version": [1, 0, 0]
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ],
+  "subpacks": [
+    {
+      "folder_name": "machinist_shader",
+      "name": "\u00a76Machinist Shader\u00a7r \u00a78- warm industrial grade, PBR water & lights",
+      "memory_tier": 1
     }
   ]
 }

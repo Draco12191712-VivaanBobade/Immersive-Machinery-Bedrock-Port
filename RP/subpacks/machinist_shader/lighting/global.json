@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:lighting_settings": {
+    "description": { "identifier": "immersive:machinist_lighting" },
+    "directional_lights": {
+      "sun": {
+        "illuminance": 96000,
+        "colour": "#fff2d8"
+      },
+      "moon": {
+        "illuminance": 0.22,
+        "colour": "#b9d4ff"
+      },
+      "orbital_offset_degrees": 0
+    },
+    "emissive": {
+      "desaturation": 0.05
+    },
+    "ambient": {
+      "illuminance": 0.09,
+      "colour": "#7f95b0"
+    },
+    "sky": {
+      "intensity": 1.12
+    }
+  }
+}

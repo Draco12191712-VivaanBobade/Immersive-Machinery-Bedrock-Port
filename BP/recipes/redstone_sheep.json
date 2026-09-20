@@ -1,0 +1,53 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "immersive:redstone_sheep"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "CER",
+      "HPH"
+    ],
+    "key": {
+      "R": {
+        "item": "immersive:redstone_mechanism"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "H": {
+        "item": "minecraft:copper_block"
+      },
+      "E": {
+        "item": "minecraft:piston"
+      },
+      "P": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "immersive:redstone_mechanism"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_block"
+      },
+      {
+        "item": "minecraft:piston"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "immersive:redstone_sheep",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "immersive:copperfin",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "immersive:engine_power": {
+          "type": "float",
+          "range": [
+            0.0,
+            1.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "immersive:input_x": {
+          "type": "float",
+          "range": [
+            -1.0,
+            1.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "immersive:input_y": {
+          "type": "float",
+          "range": [
+            -1.0,
+            1.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "immersive:input_z": {
+          "type": "float",
+          "range": [
+            -1.0,
+            1.0
+          ],
+          "default": 0.0,
+          "client_sync": true
+        },
+        "immersive:condition": {
+          "type": "float",
+          "range": [
+            0.0,
+            1.0
+          ],
+          "default": 1.0,
+          "client_sync": true
+        }
+      }
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "immersive_machine",
+          "copperfin",
+          "inanimate"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 1.5,
+        "height": 1.625
+      },
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+              "filters": {
+                "any_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "monster"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "drowning"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "fire"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "fire_tick"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "lava"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "magma"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "suffocation"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "wither"
+                  }
+                ]
+              }
+            },
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:persistent": {},
+      "minecraft:custom_hit_test": {
+        "hitboxes": [
+          {
+            "width": 1.5,
+            "height": 1.625,
+            "pivot": [
+              0,
+              0.8125,
+              0
+            ]
+          }
+        ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:inventory": {
+        "container_type": "container",
+        "inventory_size": 14,
+        "can_be_siphoned_from": false,
+        "private": true
+      },
+      "minecraft:nameable": {},
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "on_interact": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                  },
+                  {
+                    "test": "is_sneaking",
+                    "subject": "other",
+                    "value": true
+                  }
+                ]
+              },
+              "event": "immersive:open_panel",
+              "target": "self"
+            },
+            "interact_text": "action.interact.copperfin.panel",
+            "use_item": false,
+            "swing": false,
+            "play_sounds": ""
+          }
+        ]
+      },
+      "minecraft:movement": {
+        "value": 0.44999999999999996
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": false,
+        "can_pass_doors": false,
+        "can_open_doors": false,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "breathes_air": true,
+        "breathes_water": true
+      },
+      "minecraft:underwater_movement": {
+        "value": 0.6
+      },
+      "minecraft:navigation.swim": {
+        "can_path_over_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "crouching_skip_interact": true,
+        "interact_text": "action.interact.ride.copperfin",
+        "family_types": [
+          "player"
+        ],
+        "pull_in_entities": false,
+        "controlling_seat": 0,
+        "seats": [
+          {
+            "position": [
+              0.0,
+              0.125,
+              0.0
+            ],
+            "lock_rider_rotation": -1,
+            "min_rider_count": 0,
+            "max_rider_count": 1
+          }
+        ]
+      },
+      "minecraft:input_ground_controlled": {},
+      "minecraft:behavior.controlled_by_player": {
+        "priority": 0
+      }
+    },
+    "events": {
+      "immersive:open_panel": {
+        "run_command": {
+          "command": []
+        }
+      }
+    }
+  }
+}

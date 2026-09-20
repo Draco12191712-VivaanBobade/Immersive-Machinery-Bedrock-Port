@@ -1,0 +1,30 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:water_settings": {
+    "description": { "identifier": "immersive:machinist_water" },
+    "waves": {
+      "enabled": true,
+      "frequency_scaling": 0.28,
+      "mix": 0.55,
+      "pull": 0.42,
+      "sampling_scaling": 0.75,
+      "shape": [1.0, 1.35],
+      "depth": 0.085,
+      "octaves": 4,
+      "speed": 0.42,
+      "direction_increment": 42
+    },
+    "caustics": {
+      "enabled": true,
+      "texture": "textures/water_caustic",
+      "frame_length": 0.15,
+      "power": 3.2,
+      "scale_uv": [1.0, 1.0]
+    },
+    "particle_concentrations": {
+      "chlorophyll": { "default": 0.65 },
+      "suspended_sediment": { "default": 0.55 },
+      "cdom": { "default": 0.22 }
+    }
+  }
+}

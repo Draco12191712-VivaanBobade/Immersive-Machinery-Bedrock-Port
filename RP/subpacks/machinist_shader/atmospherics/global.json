@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:atmosphere_settings": {
+    "description": { "identifier": "immersive:machinist_atmosphere" },
+    "horizon_blend_stops": {
+      "min": 0.15,
+      "start": 0.32,
+      "mie_start": 0.55,
+      "end": 1.0
+    },
+    "rayleigh_strength": 1.15,
+    "sun_mie_strength": 1.35,
+    "moon_mie_strength": 1.1,
+    "sun_glare_shape": 3.2,
+    "sky_zenith_colour": {
+      "0.0": "#0a1526",
+      "0.25": "#3f5f86",
+      "0.5": "#6f9fd0",
+      "0.75": "#3f5f86",
+      "1.0": "#0a1526"
+    },
+    "sky_horizon_colour": {
+      "0.0": "#101b2b",
+      "0.2": "#8a5c3c",
+      "0.5": "#bcd4e8",
+      "0.8": "#8a5c3c",
+      "1.0": "#101b2b"
+    }
+  }
+}
