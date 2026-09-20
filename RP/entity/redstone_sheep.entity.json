@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "immersive:redstone_sheep",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "immersive_machine",
+        "glow": "immersive_glow"
+      },
+      "textures": {
+        "default": "textures/entity/immersive/redstone_sheep",
+        "glow": "textures/entity/immersive/redstone_sheep_glow"
+      },
+      "geometry": {
+        "default": "geometry.immersive.redstone_sheep"
+      },
+      "animations": {
+        "hover": "animation.immersive.redstone_sheep.hover"
+      },
+      "scripts": {
+        "animate": [
+          "hover"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.immersive.redstone_sheep",
+        "controller.render.immersive.redstone_sheep.glow"
+      ],
+      "spawn_egg": {
+        "base_color": "#8f8f8f",
+        "overlay_color": "#c02020"
+      },
+      "sound_effects": {},
+      "enable_attachables": false
+    }
+  }
+}

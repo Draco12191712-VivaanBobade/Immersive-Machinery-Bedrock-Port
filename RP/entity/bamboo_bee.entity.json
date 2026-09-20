@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "immersive:bamboo_bee",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "immersive_machine",
+        "glow": "immersive_glow"
+      },
+      "textures": {
+        "default": "textures/entity/immersive/bamboo_bee",
+        "glow": "textures/entity/immersive/bamboo_bee_glow"
+      },
+      "geometry": {
+        "default": "geometry.immersive.bamboo_bee"
+      },
+      "animations": {
+        "props": "animation.immersive.bamboo_bee.props",
+        "misc": "animation.immersive.bamboo_bee.misc"
+      },
+      "scripts": {
+        "animate": [
+          "props",
+          "misc"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.immersive.bamboo_bee",
+        "controller.render.immersive.bamboo_bee.glow"
+      ],
+      "spawn_egg": {
+        "base_color": "#c4b055",
+        "overlay_color": "#7a5a2a"
+      },
+      "sound_effects": {},
+      "enable_attachables": false
+    }
+  }
+}

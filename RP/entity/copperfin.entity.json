@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "immersive:copperfin",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "immersive_machine",
+        "glow": "immersive_glow",
+        "glass": "immersive_glass"
+      },
+      "textures": {
+        "default": "textures/entity/immersive/copperfin",
+        "glow": "textures/entity/immersive/copperfin_glow"
+      },
+      "geometry": {
+        "default": "geometry.immersive.copperfin"
+      },
+      "animations": {
+        "turbine": "animation.immersive.copperfin.turbine",
+        "misc": "animation.immersive.copperfin.misc"
+      },
+      "scripts": {
+        "animate": [
+          "turbine",
+          "misc"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.immersive.copperfin",
+        "controller.render.immersive.copperfin.glow"
+      ],
+      "spawn_egg": {
+        "base_color": "#e3826c",
+        "overlay_color": "#8fbfb8"
+      },
+      "sound_effects": {},
+      "enable_attachables": false
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "immersive:tunnel_digger",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "immersive_machine",
+        "glow": "immersive_glow"
+      },
+      "textures": {
+        "default": "textures/entity/immersive/tunnel_digger",
+        "glow": "textures/entity/immersive/tunnel_digger_glow"
+      },
+      "geometry": {
+        "default": "geometry.immersive.tunnel_digger"
+      },
+      "animations": {
+        "drill": "animation.immersive.tunnel_digger.drill",
+        "engine": "animation.immersive.tunnel_digger.engine",
+        "misc": "animation.immersive.tunnel_digger.misc"
+      },
+      "scripts": {
+        "animate": [
+          "drill",
+          "engine",
+          "misc"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.immersive.tunnel_digger",
+        "controller.render.immersive.tunnel_digger.glow"
+      ],
+      "spawn_egg": {
+        "base_color": "#b4693f",
+        "overlay_color": "#6b6b6b"
+      },
+      "sound_effects": {},
+      "enable_attachables": false
+    }
+  }
+}
