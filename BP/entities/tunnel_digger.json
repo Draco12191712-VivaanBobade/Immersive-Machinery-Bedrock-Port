@@ -43,15 +43,6 @@
           "default": 0.0,
           "client_sync": true
         },
-        "immersive:condition": {
-          "type": "float",
-          "range": [
-            0.0,
-            1.0
-          ],
-          "default": 1.0,
-          "client_sync": true
-        },
         "immersive:drilling": {
           "type": "bool",
           "default": false,
@@ -61,11 +52,6 @@
           "type": "bool",
           "default": false,
           "client_sync": true
-        },
-        "immersive:drill_on": {
-          "type": "bool",
-          "default": true,
-          "client_sync": false
         }
       }
     },
@@ -95,17 +81,31 @@
         "is_pushable_by_piston": false
       },
       "minecraft:fire_immune": true,
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:persistent": {},
+      "minecraft:nameable": {
+        "always_show": false,
+        "allow_name_tag_renaming": true
+      },
+      "minecraft:movement": {
+        "value": 0.4
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:inventory": {
+        "container_type": "inventory",
+        "inventory_size": 54,
+        "can_be_siphoned_from": false,
+        "private": true,
+        "restrict_to_owner": false
+      },
       "minecraft:damage_sensor": {
         "triggers": [
           {
             "on_damage": {
               "filters": {
                 "any_of": [
-                  {
-                    "test": "is_family",
-                    "subject": "other",
-                    "value": "monster"
-                  },
                   {
                     "test": "has_damage",
                     "value": "drowning"
@@ -133,6 +133,18 @@
                   {
                     "test": "has_damage",
                     "value": "wither"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "freezing"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "starve"
+                  },
+                  {
+                    "test": "has_damage",
+                    "value": "fall"
                   }
                 ]
               }
@@ -141,31 +153,26 @@
           }
         ]
       },
-      "minecraft:knockback_resistance": {
-        "value": 1.0
-      },
-      "minecraft:persistent": {},
-      "minecraft:custom_hit_test": {
-        "hitboxes": [
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "crouching_skip_interact": true,
+        "interact_text": "action.interact.immersive.ride",
+        "family_types": [
+          "player"
+        ],
+        "pull_in_entities": false,
+        "controlling_seat": 0,
+        "seats": [
           {
-            "width": 2.8,
-            "height": 2.8,
-            "pivot": [
-              0,
-              1.4,
-              0
-            ]
+            "position": [
+              0.0,
+              1.5,
+              -1.125
+            ],
+            "lock_rider_rotation": -1
           }
         ]
       },
-      "minecraft:conditional_bandwidth_optimization": {},
-      "minecraft:inventory": {
-        "container_type": "container",
-        "inventory_size": 64,
-        "can_be_siphoned_from": false,
-        "private": true
-      },
-      "minecraft:nameable": {},
       "minecraft:interact": {
         "interactions": [
           {
@@ -184,62 +191,20 @@
                   }
                 ]
               },
-              "event": "immersive:open_panel",
+              "event": "immersive:panel",
               "target": "self"
             },
-            "interact_text": "action.interact.tunnel_digger.panel",
+            "interact_text": "action.interact.immersive.panel",
             "use_item": false,
             "swing": false,
+            "hurt_item": 0,
             "play_sounds": ""
           }
         ]
-      },
-      "minecraft:movement": {
-        "value": 0.6000000000000001
-      },
-      "minecraft:navigation.walk": {
-        "can_path_over_water": true,
-        "avoid_water": true,
-        "can_pass_doors": false,
-        "can_open_doors": false,
-        "avoid_damage_blocks": true
-      },
-      "minecraft:movement.basic": {},
-      "minecraft:jump.static": {},
-      "minecraft:can_climb": {},
-      "minecraft:rideable": {
-        "seat_count": 1,
-        "crouching_skip_interact": true,
-        "interact_text": "action.interact.ride.tunnel_digger",
-        "family_types": [
-          "player"
-        ],
-        "pull_in_entities": false,
-        "controlling_seat": 0,
-        "seats": [
-          {
-            "position": [
-              0.0,
-              1.5,
-              -1.125
-            ],
-            "lock_rider_rotation": -1,
-            "min_rider_count": 0,
-            "max_rider_count": 1
-          }
-        ]
-      },
-      "minecraft:input_ground_controlled": {},
-      "minecraft:behavior.controlled_by_player": {
-        "priority": 0
       }
     },
     "events": {
-      "immersive:open_panel": {
-        "run_command": {
-          "command": []
-        }
-      }
+      "immersive:panel": {}
     }
   }
 }

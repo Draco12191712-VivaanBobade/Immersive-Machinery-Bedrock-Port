@@ -21,7 +21,7 @@
         "movement_modifier": 1.0
       },
       "minecraft:custom_components": [
-        "immersive:place_machine"
+        "immersive:machine_item"
       ]
     }
   }
