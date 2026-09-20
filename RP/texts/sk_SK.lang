@@ -1,5 +1,3 @@
-## Immersive Machinery - Bedrock port
-## machine + item names come from the original mod translations
 action.interact.immersive.panel=Control Panel
 action.interact.immersive.ride=Pilot
 entity.immersive:bamboo_bee.name=Bambusová včela

@@ -1,20 +1,22 @@
 {
   "materials": {
     "version": "1.0.0",
-
     "immersive_machine:entity_alphatest": {},
-
     "immersive_glow:entity_emissive_alpha": {
-      "+states": [ "DisableDepthWrite", "DisableCulling" ],
+      "+states": [
+        "DisableDepthWrite",
+        "DisableCulling"
+      ],
       "blendSrc": "SourceAlpha",
       "blendDst": "One",
       "depthFunc": "LessEqual"
     },
-
     "immersive_glass:entity_alphablend": {
-      "+states": [ "DisableCulling" ],
+      "+states": [
+        "DisableCulling"
+      ],
       "blendSrc": "SourceAlpha",
-      "blendDst": "OneMinusSourceAlpha",
+      "blendDst": "OneMinusSrcAlpha",
       "depthFunc": "LessEqual"
     }
   }

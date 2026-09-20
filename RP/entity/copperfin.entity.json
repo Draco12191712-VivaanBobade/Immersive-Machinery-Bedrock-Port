@@ -1,9 +1,9 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.26.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "immersive:copperfin",
-      "min_engine_version": "1.8.0",
+      "min_engine_version": "1.26.0",
       "materials": {
         "default": "immersive_machine",
         "glow": "immersive_glow",

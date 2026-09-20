@@ -53,7 +53,8 @@
     }
   ],
   "capabilities": [
-    "pbr"
+    "pbr",
+    "raytracing"
   ],
   "subpacks": [
     {

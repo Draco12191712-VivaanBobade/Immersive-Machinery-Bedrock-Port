@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.30",
+  "format_version": "1.26.0",
   "minecraft:texture_set": {
     "color": "tunnel_digger",
     "metalness_emissive_roughness": "tunnel_digger_mer",
