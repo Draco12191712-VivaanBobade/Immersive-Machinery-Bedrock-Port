@@ -1,0 +1,32 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "immersive_machine:entity_alphatest": {
+      "+states": [ "EnableStencilTest" ]
+    },
+
+    "immersive_glow:entity_alphablend": {
+      "+states": [ "DisableDepthWrite", "DisableCulling" ],
+      "-states": [ "EnableStencilTest" ],
+      "blendSrc": "SourceAlpha",
+      "blendDst": "One",
+      "+defines": [ "USE_EMISSIVE", "ALPHA_TEST" ],
+      "depthFunc": "LessEqual"
+    },
+
+    "immersive_glass:entity_alphablend": {
+      "+states": [ "DisableCulling" ],
+      "blendSrc": "SourceAlpha",
+      "blendDst": "OneMinusSourceAlpha",
+      "depthFunc": "LessEqual"
+    },
+
+    "immersive_sonar:entity_alphablend": {
+      "+states": [ "DisableDepthWrite", "DisableCulling" ],
+      "blendSrc": "SourceAlpha",
+      "blendDst": "One",
+      "+defines": [ "USE_EMISSIVE" ]
+    }
+  }
+}
