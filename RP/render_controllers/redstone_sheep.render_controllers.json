@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.immersive.redstone_sheep": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Texture.default"
+      ]
+    },
+    "controller.render.immersive.redstone_sheep.glow": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.glow"
+        }
+      ],
+      "textures": [
+        "Texture.glow"
+      ],
+      "part_visibility": [
+        {
+          "*": false
+        },
+        {
+          "body": true
+        }
+      ],
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": "q.property('immersive:engine_power') * 0.55 + math.sin(q.life_time * 180) * 0.04 * q.property('immersive:engine_power')"
+      }
+    }
+  }
+}
