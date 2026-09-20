@@ -11,22 +11,25 @@
             "dash": [
                 "0.11.7"
             ]
-        }
+        },
+        "product_type": "addon",
+        "license": "GPL v3 (GNU General Public License v3)"
     },
     "header": {
-        "name": "Immersive Machinery Bedrock Port",
-        "description": "Immersive Machinery brings a collection of rustic machines to Minecraft: Bedrock Edition, allowing you to transport, mine, and automate with a design that blends seamlessly into the vanilla game. Original by Conczin. Bedrock port by Draco12191712 (Vivaan Bobade) V0.0.1",
+        "name": "§6§lImmersive Machinery§r §9[RP]§r",
+        "description": "§eAutomate, mine, and transport with rustic vanilla-friendly machines!§r\n\n§7Original by: §fConczin\n§7Bedrock port: §bDraco12191712\n§8v0.0.1 | © MoJex Studios - DO NOT DISTRIBUTE.",
         "min_engine_version": [
             1,
-            21,
-            120
+            26,
+            0
         ],
         "uuid": "b138f830-a39a-41b4-b555-3ee98e53198d",
         "version": [
             1,
             0,
             0
-        ]
+        ],
+        "pack_scope": "any"
     },
     "modules": [
         {
