@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "diamond_drill",
+    "metalness_emissive_roughness": "diamond_drill_mer",
+    "normal": "diamond_drill_normal"
+  }
+}

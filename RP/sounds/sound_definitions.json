@@ -1,0 +1,138 @@
+{
+  "format_version": "1.20.20",
+  "sound_definitions": {
+    "immersive.tunnel_digger": {
+      "category": "neutral",
+      "max_distance": 24,
+      "min_distance": 1.0,
+      "sounds": [
+        {
+          "name": "sounds/immersive/tunnel_digger",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "immersive.tunnel_digger_drilling": {
+      "category": "neutral",
+      "max_distance": 24,
+      "min_distance": 1.0,
+      "sounds": [
+        {
+          "name": "sounds/immersive/tunnel_digger_drilling",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "immersive.hatch_close": {
+      "category": "neutral",
+      "max_distance": 16,
+      "min_distance": 1.0,
+      "sounds": [
+        {
+          "name": "sounds/immersive/hatch_close",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "immersive.hatch_open": {
+      "category": "neutral",
+      "max_distance": 16,
+      "min_distance": 1.0,
+      "sounds": [
+        {
+          "name": "sounds/immersive/hatch_open",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "immersive.sonar": {
+      "category": "neutral",
+      "max_distance": 48,
+      "min_distance": 1.0,
+      "sounds": [
+        {
+          "name": "sounds/immersive/sonar",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "immersive.submarine_ambience": {
+      "category": "neutral",
+      "max_distance": 16,
+      "min_distance": 1.0,
+      "sounds": [
+        {
+          "name": "sounds/immersive/submarine_ambience_0",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        },
+        {
+          "name": "sounds/immersive/submarine_ambience_1",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        },
+        {
+          "name": "sounds/immersive/submarine_ambience_2",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        },
+        {
+          "name": "sounds/immersive/submarine_ambience_3",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        },
+        {
+          "name": "sounds/immersive/submarine_ambience_4",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        },
+        {
+          "name": "sounds/immersive/submarine_ambience_5",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "immersive.submarine_engine": {
+      "category": "neutral",
+      "max_distance": 24,
+      "min_distance": 1.0,
+      "sounds": [
+        {
+          "name": "sounds/immersive/submarine_engine",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "immersive.bamboo_bee": {
+      "category": "neutral",
+      "max_distance": 16,
+      "min_distance": 1.0,
+      "sounds": [
+        {
+          "name": "sounds/immersive/bamboo_bee",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "immersive.redstone_sheep": {
+      "category": "neutral",
+      "max_distance": 16,
+      "min_distance": 1.0,
+      "sounds": [
+        {
+          "name": "sounds/immersive/redstone_sheep",
+          "volume": 1.0,
+          "load_on_low_memory": true
+        }
+      ]
+    }
+  }
+}

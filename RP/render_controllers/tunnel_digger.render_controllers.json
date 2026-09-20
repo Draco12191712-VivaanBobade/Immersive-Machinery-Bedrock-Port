@@ -27,16 +27,13 @@
           "*": false
         },
         {
+          "root": true
+        },
+        {
+          "body": true
+        },
+        {
           "engine": true
-        },
-        {
-          "exhaust": true
-        },
-        {
-          "small_gear": true
-        },
-        {
-          "large_gear": true
         },
         {
           "belt": true
@@ -49,6 +46,15 @@
         },
         {
           "frame_1": true
+        },
+        {
+          "exhaust": true
+        },
+        {
+          "small_gear": true
+        },
+        {
+          "large_gear": true
         }
       ],
       "color": {

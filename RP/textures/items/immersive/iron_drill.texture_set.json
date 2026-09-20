@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.30",
+  "minecraft:texture_set": {
+    "color": "iron_drill",
+    "metalness_emissive_roughness": "iron_drill_mer",
+    "normal": "iron_drill_normal"
+  }
+}

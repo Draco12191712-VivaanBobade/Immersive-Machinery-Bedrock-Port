@@ -13,11 +13,6 @@
       ],
       "textures": [
         "Texture.default"
-      ],
-      "part_visibility": [
-        {
-          "*": true
-        }
       ]
     },
     "controller.render.immersive.copperfin.glow": {
@@ -33,6 +28,12 @@
       "part_visibility": [
         {
           "*": false
+        },
+        {
+          "root": true
+        },
+        {
+          "body": true
         },
         {
           "bone": true

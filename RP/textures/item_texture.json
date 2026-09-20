@@ -1,0 +1,30 @@
+{
+  "resource_pack_name": "immersive_machinery",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "immersive_tunnel_digger": {
+      "textures": "textures/items/immersive/tunnel_digger"
+    },
+    "immersive_bamboo_bee": {
+      "textures": "textures/items/immersive/bamboo_bee"
+    },
+    "immersive_redstone_sheep": {
+      "textures": "textures/items/immersive/redstone_sheep"
+    },
+    "immersive_copperfin": {
+      "textures": "textures/items/immersive/copperfin"
+    },
+    "immersive_redstone_mechanism": {
+      "textures": "textures/items/immersive/redstone_mechanism"
+    },
+    "immersive_iron_drill": {
+      "textures": "textures/items/immersive/iron_drill"
+    },
+    "immersive_diamond_drill": {
+      "textures": "textures/items/immersive/diamond_drill"
+    },
+    "immersive_netherite_drill": {
+      "textures": "textures/items/immersive/netherite_drill"
+    }
+  }
+}

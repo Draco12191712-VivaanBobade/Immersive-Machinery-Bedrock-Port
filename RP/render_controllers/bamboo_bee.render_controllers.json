@@ -27,6 +27,12 @@
           "*": false
         },
         {
+          "root": true
+        },
+        {
+          "body": true
+        },
+        {
           "engine": true
         },
         {
