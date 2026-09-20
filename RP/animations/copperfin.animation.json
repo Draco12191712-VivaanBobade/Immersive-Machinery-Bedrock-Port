@@ -1,0 +1,32 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.immersive.copperfin.turbine": {
+      "loop": true,
+      "animation_length": 3600.0,
+      "bones": {
+        "bone": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-((q.anim_time * 20) * 40)"
+          ]
+        }
+      },
+      "anim_time_update": "q.anim_time + q.delta_time * (q.property('immersive:engine_power'))"
+    },
+    "animation.immersive.copperfin.misc": {
+      "loop": true,
+      "animation_length": 1.0,
+      "bones": {
+        "controller": {
+          "rotation": [
+            "-(q.property('immersive:input_z') * 30)",
+            0.0,
+            "-(-q.property('immersive:input_x') * 30)"
+          ]
+        }
+      }
+    }
+  }
+}

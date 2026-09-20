@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.immersive.redstone_sheep.hover": {
+      "loop": true,
+      "animation_length": 1.0,
+      "bones": {
+        "body": {
+          "position": [
+            0,
+            "(math.cos(q.life_time * 40) + 1) * 0.25 * q.property('immersive:engine_power')",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

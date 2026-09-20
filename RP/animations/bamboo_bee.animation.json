@@ -1,0 +1,67 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.immersive.bamboo_bee.props": {
+      "loop": true,
+      "animation_length": 3600.0,
+      "bones": {
+        "propellor_0": {
+          "rotation": [
+            0.0,
+            "(q.anim_time * 20) * 150",
+            0.0
+          ]
+        },
+        "propellor_3": {
+          "rotation": [
+            0.0,
+            "(q.anim_time * 20) * 150",
+            0.0
+          ]
+        },
+        "propellor_2": {
+          "rotation": [
+            0.0,
+            "-(q.anim_time * 20) * 150",
+            0.0
+          ]
+        },
+        "propellor_1": {
+          "rotation": [
+            0.0,
+            "-(q.anim_time * 20) * 150",
+            0.0
+          ]
+        }
+      },
+      "anim_time_update": "q.anim_time + q.delta_time * (q.property('immersive:engine_power'))"
+    },
+    "animation.immersive.bamboo_bee.misc": {
+      "loop": true,
+      "animation_length": 1.0,
+      "bones": {
+        "grabber": {
+          "rotation": [
+            "-((q.property('immersive:cargo') ? 0 : -45))",
+            0.0,
+            0.0
+          ]
+        },
+        "cargo": {
+          "scale": [
+            "q.property('immersive:cargo') ? 1 : 0",
+            "q.property('immersive:cargo') ? 1 : 0",
+            "q.property('immersive:cargo') ? 1 : 0"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "q.property('immersive:input_y') * -45",
+            0,
+            "q.property('immersive:input_x') * 30"
+          ]
+        }
+      }
+    }
+  }
+}

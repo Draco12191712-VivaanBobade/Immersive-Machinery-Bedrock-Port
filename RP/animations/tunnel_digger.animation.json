@@ -1,0 +1,354 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.immersive.tunnel_digger.drill": {
+      "loop": true,
+      "animation_length": 3600.0,
+      "bones": {
+        "drill_root": {
+          "rotation": [
+            "-((q.anim_time * 128))",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-((q.anim_time * 128))"
+          ]
+        },
+        "drill_0_0": {
+          "rotation": [
+            "-((q.anim_time * 128) * 1.7)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0_2": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-((q.anim_time * 128) * 1.7)"
+          ]
+        },
+        "drill_0_3": {
+          "rotation": [
+            0.0,
+            "(q.anim_time * 128) * 1.7",
+            0.0
+          ]
+        },
+        "drill_0_4": {
+          "rotation": [
+            0.0,
+            "-(q.anim_time * 128) * 1.7",
+            0.0
+          ]
+        },
+        "drill_1": {
+          "rotation": [
+            0.0,
+            0.0,
+            "(q.anim_time * 128)"
+          ]
+        },
+        "drill_0_5": {
+          "rotation": [
+            "-(-(q.anim_time * 128) * 1.7)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0_7": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-(-(q.anim_time * 128) * 1.7)"
+          ]
+        },
+        "drill_0_8": {
+          "rotation": [
+            0.0,
+            "-(q.anim_time * 128) * 1.7",
+            0.0
+          ]
+        },
+        "drill_0_9": {
+          "rotation": [
+            0.0,
+            "(q.anim_time * 128) * 1.7",
+            0.0
+          ]
+        },
+        "drill_2": {
+          "rotation": [
+            "-((q.anim_time * 128)-37.5)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0_10": {
+          "rotation": [
+            "-((q.anim_time * 128) * 1.7)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0_11": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-((q.anim_time * 128) * 1.7)"
+          ]
+        },
+        "drill_0_12": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-(-(q.anim_time * 128) * 1.7)"
+          ]
+        },
+        "drill_0_13": {
+          "rotation": [
+            0.0,
+            "-(q.anim_time * 128) * 1.7",
+            0.0
+          ]
+        },
+        "drill_0_14": {
+          "rotation": [
+            0.0,
+            "(q.anim_time * 128) * 1.7",
+            0.0
+          ]
+        },
+        "drill_3": {
+          "rotation": [
+            0.0,
+            "(q.anim_time * 128)-45",
+            0.0
+          ]
+        },
+        "drill_0_15": {
+          "rotation": [
+            "-(-(q.anim_time * 128) * 1.7)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0_17": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-(-(q.anim_time * 128) * 1.7)"
+          ]
+        },
+        "drill_0_18": {
+          "rotation": [
+            0.0,
+            "-(q.anim_time * 128) * 1.7",
+            0.0
+          ]
+        },
+        "drill_4": {
+          "rotation": [
+            0.0,
+            "-(q.anim_time * 128)+34",
+            0.0
+          ]
+        },
+        "drill_0_20": {
+          "rotation": [
+            "-(-(q.anim_time * 128) * 1.7)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0_21": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-((q.anim_time * 128) * 1.7)"
+          ]
+        },
+        "drill_0_22": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-(-(q.anim_time * 128) * 1.7)"
+          ]
+        },
+        "drill_0_24": {
+          "rotation": [
+            0.0,
+            "(q.anim_time * 128) * 1.7",
+            0.0
+          ]
+        },
+        "drill_0_16": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-((q.anim_time * 128) * 1.7)"
+          ]
+        },
+        "drill_0_6": {
+          "rotation": [
+            "-((q.anim_time * 128) * 1.7)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0_1": {
+          "rotation": [
+            "-(-(q.anim_time * 128) * 1.7)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0_19": {
+          "rotation": [
+            "-((q.anim_time * 128) * 1.7)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill_0_23": {
+          "rotation": [
+            "-((q.anim_time * 128) * 1.7)",
+            0.0,
+            0.0
+          ]
+        },
+        "drill": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "anim_time_update": "q.anim_time + q.delta_time * (q.property('immersive:drilling') ? 1 : 0)"
+    },
+    "animation.immersive.tunnel_digger.engine": {
+      "loop": true,
+      "animation_length": 3600.0,
+      "bones": {
+        "small_gear": {
+          "rotation": [
+            "-(-(q.anim_time * 20) * 10)",
+            0.0,
+            0.0
+          ]
+        },
+        "large_gear": {
+          "rotation": [
+            "-((q.anim_time * 20) * 6)",
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "anim_time_update": "q.anim_time + q.delta_time * (q.property('immersive:engine_power'))"
+    },
+    "animation.immersive.tunnel_digger.misc": {
+      "loop": true,
+      "animation_length": 1.0,
+      "bones": {
+        "engine": {
+          "position": [
+            "(math.random(-0.5, 0.5) * q.property('immersive:engine_power')) / 16",
+            "(math.random(-0.5, 0.5) * q.property('immersive:engine_power')) / 16",
+            "(math.random(-0.5, 0.5) * q.property('immersive:engine_power')) / 16"
+          ]
+        },
+        "controller_x": {
+          "rotation": [
+            "-(q.property('immersive:input_x') * 60)",
+            0.0,
+            0.0
+          ]
+        },
+        "controller_y": {
+          "rotation": [
+            "-(q.property('immersive:input_z') * 60)",
+            0.0,
+            0.0
+          ]
+        },
+        "frame_0": {
+          "scale": [
+            "(q.property('immersive:engine_power') > 0.01) ? (math.mod(math.floor(q.life_time * 20), 2) == 0 ? 1 : 0) : 1",
+            "(q.property('immersive:engine_power') > 0.01) ? (math.mod(math.floor(q.life_time * 20), 2) == 0 ? 1 : 0) : 1",
+            "(q.property('immersive:engine_power') > 0.01) ? (math.mod(math.floor(q.life_time * 20), 2) == 0 ? 1 : 0) : 1"
+          ]
+        },
+        "frame_1": {
+          "scale": [
+            "(q.property('immersive:engine_power') > 0.01) ? (math.mod(math.floor(q.life_time * 20), 2) == 1 ? 1 : 0) : 0",
+            "(q.property('immersive:engine_power') > 0.01) ? (math.mod(math.floor(q.life_time * 20), 2) == 1 ? 1 : 0) : 0",
+            "(q.property('immersive:engine_power') > 0.01) ? (math.mod(math.floor(q.life_time * 20), 2) == 1 ? 1 : 0) : 0"
+          ]
+        },
+        "right_track_anim_0": {
+          "scale": [
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 0 ? 1 : 0) : 1",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 0 ? 1 : 0) : 1",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 0 ? 1 : 0) : 1"
+          ]
+        },
+        "right_track_anim_1": {
+          "scale": [
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 1 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 1 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 1 ? 1 : 0) : 0"
+          ]
+        },
+        "right_track_anim_2": {
+          "scale": [
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 2 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 2 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 2 ? 1 : 0) : 0"
+          ]
+        },
+        "right_track_anim_3": {
+          "scale": [
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 3 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 3 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 3 ? 1 : 0) : 0"
+          ]
+        },
+        "left_track_anim_0": {
+          "scale": [
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 0 ? 1 : 0) : 1",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 0 ? 1 : 0) : 1",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 0 ? 1 : 0) : 1"
+          ]
+        },
+        "left_track_anim_1": {
+          "scale": [
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 1 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 1 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 1 ? 1 : 0) : 0"
+          ]
+        },
+        "left_track_anim_2": {
+          "scale": [
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 2 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 2 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 2 ? 1 : 0) : 0"
+          ]
+        },
+        "left_track_anim_3": {
+          "scale": [
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 3 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 3 ? 1 : 0) : 0",
+            "(q.property('immersive:moving')) ? (math.mod(math.floor(q.life_time * 20), 4) == 3 ? 1 : 0) : 0"
+          ]
+        }
+      }
+    }
+  }
+}
