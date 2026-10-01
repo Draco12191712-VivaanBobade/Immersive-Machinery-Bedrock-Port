@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Kopáč tunelů
 item.immersive:tunnel_digger.description=Stroj, který dokáže snadno hloubit tunely.
 item.immersive:tunnel_digger.name=Kopáč tunelů
 itemGroup.name.immersive_machinery=Poutavé stroje
+immersive:itemGroup.name.immersive_machinery=Poutavé stroje

@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Penggali Terowongan
 item.immersive:tunnel_digger.description=Mesin yang dapat menggali terowongan dengan mudah.
 item.immersive:tunnel_digger.name=Penggali Terowongan
 itemGroup.name.immersive_machinery=Mesin Imersif
+immersive:itemGroup.name.immersive_machinery=Mesin Imersif

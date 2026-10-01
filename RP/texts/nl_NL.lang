@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Tunnelgraver
 item.immersive:tunnel_digger.description=Een machine die met gemak tunnels kan graven.
 item.immersive:tunnel_digger.name=Tunnelgraver
 itemGroup.name.immersive_machinery=Immersieve machines
+immersive:itemGroup.name.immersive_machinery=Immersieve machines

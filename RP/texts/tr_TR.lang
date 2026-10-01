@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Tünel Kazıcı
 item.immersive:tunnel_digger.description=Tünelleri kolaylıkla kazabilen bir makine.
 item.immersive:tunnel_digger.name=Tünel Kazıcı
 itemGroup.name.immersive_machinery=Sürükleyici Makineler
+immersive:itemGroup.name.immersive_machinery=Sürükleyici Makineler

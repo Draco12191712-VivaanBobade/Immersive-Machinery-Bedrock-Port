@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Копач на тунели
 item.immersive:tunnel_digger.description=Машина, която може да копае тунели с лекота.
 item.immersive:tunnel_digger.name=Копач на тунели
 itemGroup.name.immersive_machinery=Потапящи машини
+immersive:itemGroup.name.immersive_machinery=Потапящи машини

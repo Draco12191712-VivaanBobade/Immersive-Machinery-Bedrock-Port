@@ -1,5 +1,5 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.21.60",
   "minecraft:crafting_items_catalog": {
     "categories": [
       {
@@ -8,7 +8,7 @@
           {
             "group_identifier": {
               "icon": "immersive:tunnel_digger",
-              "name": "itemGroup.name.immersive_machinery"
+              "name": "immersive:itemGroup.name.immersive_machinery"
             },
             "items": [
               "immersive:tunnel_digger",
@@ -25,7 +25,7 @@
           {
             "group_identifier": {
               "icon": "immersive:redstone_mechanism",
-              "name": "itemGroup.name.immersive_machinery"
+              "name": "immersive:itemGroup.name.immersive_machinery"
             },
             "items": [
               "immersive:redstone_mechanism",

@@ -1,27 +1,113 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.21.80",
   "minecraft:lighting_settings": {
-    "description": { "identifier": "immersive:machinist_lighting" },
+    "description": {
+      "identifier": "immersive:default_lighting"
+    },
     "directional_lights": {
-      "sun": {
-        "illuminance": 96000,
-        "colour": "#fff2d8"
+      "orbital": {
+        "sun": {
+          "illuminance": {
+            "0.000000": 100.0,
+            "0.292000": 0.0,
+            "0.291500": 0.01,
+            "0.282000": 1.0,
+            "0.050000": 100.0,
+            "0.709000": 0.0,
+            "0.719000": 1.0,
+            "0.950000": 100.0,
+            "1.000000": 100.0
+          },
+          "color": {
+            "0.717949": [
+              255,
+              128,
+              118
+            ],
+            "0.242908": [
+              255,
+              123,
+              0
+            ],
+            "0.140811": [
+              255,
+              167,
+              72
+            ],
+            "0.216944": [
+              255,
+              150,
+              73
+            ],
+            "0.314561": [
+              255,
+              149,
+              137
+            ],
+            "0.269504": [
+              255,
+              123,
+              0
+            ],
+            "0.506998": [
+              255,
+              101,
+              0
+            ],
+            "0.801062": [
+              255,
+              167,
+              72
+            ],
+            "1.000000": [
+              255,
+              219,
+              191
+            ]
+          }
+        },
+        "moon": {
+          "illuminance": {
+            "0.750000": 0.0,
+            "0.000000": 0.0,
+            "0.200000": 0.0,
+            "1.000000": 0.0,
+            "0.225000": 0.4,
+            "0.735000": 0.4
+          },
+          "color": {
+            "0.000000": [
+              150,
+              177,
+              255
+            ],
+            "1.000000": [
+              150,
+              177,
+              255
+            ]
+          }
+        },
+        "orbital_offset_degrees": 0.0
       },
-      "moon": {
-        "illuminance": 0.22,
-        "colour": "#b9d4ff"
-      },
-      "orbital_offset_degrees": 0
+      "flash": {
+        "illuminance": 10.0,
+        "color": [
+          228,
+          93,
+          255
+        ]
+      }
     },
     "emissive": {
-      "desaturation": 0.05
+      "desaturation": 0.0
     },
     "ambient": {
-      "illuminance": 0.09,
-      "colour": "#7f95b0"
+      "color": "#FFF2E0",
+      "illuminance": 0.025
     },
     "sky": {
-      "intensity": 1.12
+      "intensity": 0.92
     }
   }
 }

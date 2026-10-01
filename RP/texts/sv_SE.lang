@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Tunnelgrävare
 item.immersive:tunnel_digger.description=En maskin som kan gräva tunnlar med lätthet.
 item.immersive:tunnel_digger.name=Tunnelgrävare
 itemGroup.name.immersive_machinery=Immersiva maskiner
+immersive:itemGroup.name.immersive_machinery=Immersiva maskiner

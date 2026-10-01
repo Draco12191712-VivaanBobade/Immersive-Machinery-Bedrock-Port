@@ -1,0 +1,101 @@
+{
+  "format_version": "1.21.120",
+  "minecraft:local_light_settings": {
+    "minecraft:torch": {
+      "light_color": "#F6D79A",
+      "light_type": "point_light"
+    },
+    "minecraft:redstone_torch": {
+      "light_color": "#FF3A1C",
+      "light_type": "point_light"
+    },
+    "minecraft:lantern": {
+      "light_color": "#E89442",
+      "light_type": "point_light"
+    },
+    "minecraft:soul_lantern": {
+      "light_color": "#5FD8FF",
+      "light_type": "point_light"
+    },
+    "minecraft:soul_torch": {
+      "light_color": "#5FD8FF",
+      "light_type": "point_light"
+    },
+    "minecraft:end_rod": {
+      "light_color": "#F2F0FF",
+      "light_type": "point_light"
+    },
+    "minecraft:lit_redstone_lamp": {
+      "light_color": "#FF7A45",
+      "light_type": "static_light"
+    },
+    "minecraft:lava": {
+      "light_color": "#FF8A2A",
+      "light_type": "static_light"
+    },
+    "minecraft:flowing_lava": {
+      "light_color": "#FF8A2A",
+      "light_type": "static_light"
+    },
+    "minecraft:magma": {
+      "light_color": "#FF7020",
+      "light_type": "static_light"
+    },
+    "minecraft:glowstone": {
+      "light_color": "#FFD9A0",
+      "light_type": "static_light"
+    },
+    "minecraft:sea_lantern": {
+      "light_color": "#B4F0E6",
+      "light_type": "static_light"
+    },
+    "minecraft:shroomlight": {
+      "light_color": "#FF9A52",
+      "light_type": "static_light"
+    },
+    "minecraft:campfire": {
+      "light_color": "#FFA040",
+      "light_type": "static_light"
+    },
+    "minecraft:soul_campfire": {
+      "light_color": "#5FD8FF",
+      "light_type": "static_light"
+    },
+    "minecraft:lit_furnace": {
+      "light_color": "#FF9A3A",
+      "light_type": "static_light"
+    },
+    "minecraft:lit_blast_furnace": {
+      "light_color": "#FF8A2A",
+      "light_type": "static_light"
+    },
+    "minecraft:lit_smoker": {
+      "light_color": "#FFA850",
+      "light_type": "static_light"
+    },
+    "minecraft:conduit": {
+      "light_color": "#8FF0E4",
+      "light_type": "static_light"
+    },
+    "minecraft:beacon": {
+      "light_color": "#E8F6FF",
+      "light_type": "static_light"
+    },
+    "minecraft:crying_obsidian": {
+      "light_color": "#9A4CFF",
+      "light_type": "static_light"
+    },
+    "minecraft:respawn_anchor": {
+      "light_color": "#B85CFF",
+      "light_type": "static_light"
+    },
+    "minecraft:amethyst_cluster": {
+      "light_color": "#C89CFF",
+      "light_type": "static_light"
+    },
+    "minecraft:copper_bulb": {
+      "light_color": "#FFC27A",
+      "light_type": "static_light"
+    }
+  }
+}

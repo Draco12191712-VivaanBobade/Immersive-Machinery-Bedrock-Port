@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Kopacz tuneli
 item.immersive:tunnel_digger.description=Maszyna, która z łatwością kopie tunele.
 item.immersive:tunnel_digger.name=Kopacz tuneli
 itemGroup.name.immersive_machinery=Wciągające maszyny
+immersive:itemGroup.name.immersive_machinery=Wciągające maszyny

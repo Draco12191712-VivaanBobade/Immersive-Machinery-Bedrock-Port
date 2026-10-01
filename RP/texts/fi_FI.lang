@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Tunnelinkaivaja
 item.immersive:tunnel_digger.description=Kone, joka voi kaivaa tunneleita helposti.
 item.immersive:tunnel_digger.name=Tunnelinkaivaja
 itemGroup.name.immersive_machinery=Immersiiviset koneet
+immersive:itemGroup.name.immersive_machinery=Immersiiviset koneet

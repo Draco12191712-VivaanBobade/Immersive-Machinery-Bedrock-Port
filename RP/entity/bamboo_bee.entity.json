@@ -1,12 +1,12 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "immersive:bamboo_bee",
       "min_engine_version": "1.26.0",
       "materials": {
-        "default": "immersive_machine",
-        "glow": "immersive_glow"
+        "default": "entity_alphatest",
+        "glow": "warden_bioluminescent_layer"
       },
       "textures": {
         "default": "textures/entity/immersive/bamboo_bee",
@@ -33,7 +33,6 @@
         "base_color": "#c4b055",
         "overlay_color": "#7a5a2a"
       },
-      "sound_effects": {},
       "enable_attachables": false
     }
   }

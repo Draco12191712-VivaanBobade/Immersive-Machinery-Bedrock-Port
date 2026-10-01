@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Копатель туннелей
 item.immersive:tunnel_digger.description=Машина, способная с лёгкостью рыть туннели.
 item.immersive:tunnel_digger.name=Копатель туннелей
 itemGroup.name.immersive_machinery=Захватывающая Техника
+immersive:itemGroup.name.immersive_machinery=Захватывающая Техника

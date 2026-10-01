@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=터널 굴착기
 item.immersive:tunnel_digger.description=터널을 쉽게 파낼 수 있는 기계.
 item.immersive:tunnel_digger.name=터널 굴착기
 itemGroup.name.immersive_machinery=몰입형 기계
+immersive:itemGroup.name.immersive_machinery=몰입형 기계

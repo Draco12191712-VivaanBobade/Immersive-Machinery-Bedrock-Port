@@ -1,5 +1,5 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.16.100",
   "minecraft:texture_set": {
     "color": "copperfin",
     "metalness_emissive_roughness": "copperfin_mer",

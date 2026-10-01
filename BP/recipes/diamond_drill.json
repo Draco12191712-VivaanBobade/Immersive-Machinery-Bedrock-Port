@@ -1,20 +1,27 @@
 {
-  "format_version": "1.26.0",
-  "minecraft:recipe_smithing_transform": {
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
     "description": {
       "identifier": "immersive:diamond_drill"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": {
-      "item": "minecraft:iron_block"
-    },
-    "base": {
-      "item": "immersive:iron_drill"
-    },
-    "addition": {
-      "item": "minecraft:diamond"
+    "pattern": [
+      " A ",
+      "ABA",
+      " T "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond"
+      },
+      "B": {
+        "item": "immersive:iron_drill"
+      },
+      "T": {
+        "item": "minecraft:iron_block"
+      }
     },
     "unlock": [
       {

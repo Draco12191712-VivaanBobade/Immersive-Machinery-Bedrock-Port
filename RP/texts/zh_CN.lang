@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=盾构机
 item.immersive:tunnel_digger.description=一台可以轻松挖掘隧道的机器。
 item.immersive:tunnel_digger.name=盾构机
 itemGroup.name.immersive_machinery=沉浸式机械
+immersive:itemGroup.name.immersive_machinery=沉浸式机械

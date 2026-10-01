@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Alagútásó
 item.immersive:tunnel_digger.description=Egy gép, amely könnyedén tud alagutakat ásni.
 item.immersive:tunnel_digger.name=Alagútásó
 itemGroup.name.immersive_machinery=Merülő gépek
+immersive:itemGroup.name.immersive_machinery=Merülő gépek

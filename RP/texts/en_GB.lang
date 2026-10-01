@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Tunnel Digger
 item.immersive:tunnel_digger.description=A machine that can dig tunnels with ease.
 item.immersive:tunnel_digger.name=Tunnel Digger
 itemGroup.name.immersive_machinery=Immersive Machinery
+immersive:itemGroup.name.immersive_machinery=Immersive Machinery

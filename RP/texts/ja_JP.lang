@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=トンネル・ディガー
 item.immersive:tunnel_digger.description=簡単にトンネルを掘ることができるマシン。
 item.immersive:tunnel_digger.name=トンネル・ディガー
 itemGroup.name.immersive_machinery=没入型機械
+immersive:itemGroup.name.immersive_machinery=没入型機械

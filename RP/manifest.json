@@ -16,8 +16,8 @@
     "license": "GPL v3 (GNU General Public License v3)"
   },
   "header": {
-    "name": "\u00a76\u00a7lImmersive Machinery\u00a7r \u00a79[RP]\u00a7r",
-    "description": "\u00a7eAutomate, mine, and transport with rustic vanilla-friendly machines!\u00a7r\n\n\u00a77Original by: \u00a7fConczin\n\u00a77Bedrock port: \u00a7bDraco12191712\n\u00a78v0.0.1",
+    "name": "§6§lImmersive Machinery§r §9[RP]§r",
+    "description": "§eAutomate, mine, and transport with rustic vanilla-friendly machines!§r\n\n§7Original by: §fConczin\n§7Bedrock port: §bDraco12191712\n§8v0.0.1",
     "min_engine_version": [
       1,
       26,
@@ -27,7 +27,7 @@
     "version": [
       1,
       0,
-      0
+      3
     ],
     "pack_scope": "any"
   },
@@ -38,7 +38,7 @@
       "version": [
         1,
         0,
-        0
+        3
       ]
     }
   ],
@@ -48,7 +48,7 @@
       "version": [
         1,
         0,
-        0
+        3
       ]
     }
   ],
@@ -58,9 +58,14 @@
   ],
   "subpacks": [
     {
-      "folder_name": "machinist_shader",
-      "name": "\u00a76Machinist Shader\u00a7",
+      "folder_name": "machinist_shaders_on",
+      "name": "§6Machinist Shader§r §8- warm industrial grade, blocky shadows, waves (Vibrant Visuals)",
       "memory_tier": 1
+    },
+    {
+      "folder_name": "machinist_shaders_off",
+      "name": "No built-in custom shaders.",
+      "memory_tier": 0
     }
   ]
 }

@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Тунельний копач
 item.immersive:tunnel_digger.description=Машина, яка з легкістю копає тунелі.
 item.immersive:tunnel_digger.name=Тунельний копач
 itemGroup.name.immersive_machinery=Занурювальне обладнання
+immersive:itemGroup.name.immersive_machinery=Занурювальне обладнання

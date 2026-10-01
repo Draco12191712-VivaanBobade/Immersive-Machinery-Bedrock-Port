@@ -27,7 +27,7 @@
     "version": [
       1,
       0,
-      0
+      3
     ]
   },
   "modules": [
@@ -37,7 +37,7 @@
       "version": [
         1,
         0,
-        0
+        3
       ]
     },
     {
@@ -48,12 +48,9 @@
       "version": [
         1,
         0,
-        0
+        3
       ]
     }
-  ],
-  "capabilities": [
-    "script_eval"
   ],
   "dependencies": [
     {
@@ -61,20 +58,16 @@
       "version": [
         1,
         0,
-        0
+        3
       ]
     },
     {
       "module_name": "@minecraft/server",
-      "version": "1.0.0-beta"
-    },
-    {
-      "module_name": "@minecraft/server-gametest",
-      "version": "1.0.0-beta"
+      "version": "2.10.0"
     },
     {
       "module_name": "@minecraft/server-ui",
-      "version": "1.0.0-beta"
+      "version": "2.2.0"
     }
   ]
 }

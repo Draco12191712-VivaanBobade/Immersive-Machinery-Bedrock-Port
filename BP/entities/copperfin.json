@@ -1,5 +1,5 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.21.90",
   "minecraft:entity": {
     "description": {
       "identifier": "immersive:copperfin",
@@ -70,7 +70,7 @@
         "is_pushable": false,
         "is_pushable_by_piston": false
       },
-      "minecraft:fire_immune": true,
+      "minecraft:fire_immune": {},
       "minecraft:knockback_resistance": {
         "value": 1.0
       },

@@ -1,20 +1,27 @@
 {
-  "format_version": "1.26.0",
-  "minecraft:recipe_smithing_transform": {
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
     "description": {
       "identifier": "immersive:netherite_drill"
     },
     "tags": [
-      "smithing_table"
+      "crafting_table"
     ],
-    "template": {
-      "item": "minecraft:iron_block"
-    },
-    "base": {
-      "item": "immersive:diamond_drill"
-    },
-    "addition": {
-      "item": "minecraft:netherite_ingot"
+    "pattern": [
+      " A ",
+      "ABA",
+      " T "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "B": {
+        "item": "immersive:diamond_drill"
+      },
+      "T": {
+        "item": "minecraft:iron_block"
+      }
     },
     "unlock": [
       {

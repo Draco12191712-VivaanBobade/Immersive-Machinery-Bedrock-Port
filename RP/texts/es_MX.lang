@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Excavador de túneles
 item.immersive:tunnel_digger.description=Una máquina que puede excavar túneles con facilidad.
 item.immersive:tunnel_digger.name=Excavador de túneles
 itemGroup.name.immersive_machinery=Maquinaria inmersiva
+immersive:itemGroup.name.immersive_machinery=Maquinaria inmersiva

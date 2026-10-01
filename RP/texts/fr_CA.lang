@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Creuseur de tunnel
 item.immersive:tunnel_digger.description=Une machine qui peut creuser des tunnels avec facilité.
 item.immersive:tunnel_digger.name=Creuseur de tunnel
 itemGroup.name.immersive_machinery=Machinerie immersive
+immersive:itemGroup.name.immersive_machinery=Machinerie immersive

@@ -86,3 +86,4 @@ item.immersive:tunnel_digger=Εκσκαφέας σηράγγων
 item.immersive:tunnel_digger.description=Ένα μηχάνημα που μπορεί να σκάψει σήραγγες με ευκολία.
 item.immersive:tunnel_digger.name=Εκσκαφέας σηράγγων
 itemGroup.name.immersive_machinery=Immersive Μηχανήματα
+immersive:itemGroup.name.immersive_machinery=Immersive Μηχανήματα

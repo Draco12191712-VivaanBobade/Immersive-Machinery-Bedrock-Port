@@ -1,11 +1,7 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.21.80",
   "minecraft:shadow_settings": {
-    "description": { "identifier": "immersive:machinist_shadows" },
     "shadow_style": "blocky_shadows",
-    "texel_size": 256,
-    "cascade_count": 4,
-    "max_shadow_distance": 128,
-    "cascade_bias": [ 0.001, 0.0015, 0.002, 0.003 ]
+    "texel_size": 16
   }
 }
